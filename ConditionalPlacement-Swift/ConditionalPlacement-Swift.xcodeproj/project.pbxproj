@@ -10,6 +10,7 @@
 		71E54D47199D3FEE009FF939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D46199D3FEE009FF939 /* AppDelegate.swift */; };
 		71E54D49199D3FEE009FF939 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E54D48199D3FEE009FF939 /* Images.xcassets */; };
 		71E54D55199D3FEE009FF939 /* ConditionalPlacement_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D54199D3FEE009FF939 /* ConditionalPlacement_SwiftTests.swift */; };
+		CFD1DAA41AE9F5A500AB7F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E54D46199D3FEE009FF939 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +26,7 @@
 /* Begin PBXFileReference section */
 		71E54D41199D3FEE009FF939 /* ConditionalPlacement-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConditionalPlacement-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E54D45199D3FEE009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71E54D46199D3FEE009FF939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71E54D46199D3FEE009FF939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "/Users/thomasfox/Desktop/Code/ConditionalPlacement/ConditionalPlacement-Swift/ConditionalPlacement-Swift/AppDelegate.swift"; sourceTree = "<absolute>"; };
 		71E54D48199D3FEE009FF939 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71E54D4E199D3FEE009FF939 /* ConditionalPlacement-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConditionalPlacement-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E54D53199D3FEE009FF939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -208,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD1DAA41AE9F5A500AB7F82 /* AppDelegate.swift in Sources */,
 				71E54D55199D3FEE009FF939 /* ConditionalPlacement_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +377,7 @@
 				71E54D5A199D3FEE009FF939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71E54D5B199D3FEE009FF939 /* Build configuration list for PBXNativeTarget "ConditionalPlacement-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +386,7 @@
 				71E54D5D199D3FEE009FF939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
